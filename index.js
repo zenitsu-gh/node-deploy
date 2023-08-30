@@ -6,7 +6,7 @@ const app = express()
 app.use(cors())
 
 app.use('/', (req, res) => {
-    res.send('Hello World')
+    res.send('Hello Youtube')
 })
 
 const port = process.env.PORT || 5000
